@@ -6,7 +6,8 @@ Automate multipurpose tools that automates low-hanging fruit by using multiple u
 
 :white_check_mark: multiple tools are used to check for the same vulnerabilities, allowing you to effectively hone in on false positives.
 
-:white_check_mark: some of the tools inclide:
+:white_check_mark: some of the tools include:
+
         Active Reconnaissance:
         1-) whois
         2-) dig
