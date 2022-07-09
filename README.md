@@ -11,35 +11,43 @@ Automate multipurpose tools that automates low-hanging fruit by using multiple u
         Active Reconnaissance:
         1-) whois
         2-) dig
-        3-) goaltdns
-        4-) massdns
-        5-) puredns
-
-        Hunting for Subdomain:
-        6-) subfinder
-        7-) assetfinder
-        8-) findomain
      
         Directory Busting:
-        10-) Gobuster
-        11-) Dirbuster
-        12-) Dirb
-        13-) Ffuf
+        3-) Gobuster
+        4-) Dirb
 
         HTTP Probing:
-        14-) httpx
-
-        Subdomain Takeover:
-        15-) subjack
+        5-) httpx
 
         Nmap Scans:
-        16-) nmap vuln scan
+        6-) nmap vuln scan
+
+        SSL Scanner
+        7-) sslscan
+
+        8-) sqlmap
+        9-) wpscan
+        10-) nikto
+
+        0-) Exit
+
+        2-) sslscan
+        5-) default sqlmap
+        6-) enumerate usernames wpscan
+        7-) default nikto
 
 # Install coolscan
 ```bash
 sudo git clone https://github.com/g3nj1z/coolscan
 cd coolscan
 ```
+
+Wordlists
+common.txt
+
+Dependecies yg kena install dulu
+sudo apt-get install whois
+pip install httpx
 
 ## Usage
 
