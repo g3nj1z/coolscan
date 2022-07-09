@@ -51,7 +51,7 @@ sudo python coolscan.py
 - Please feel free to open an [issue](https://github.com/g3nj1z/coolscan/issues)
 
 # Find me @
-<a href="https://www.instagram.com/irfanbadzlin/">Instagram</a>
+<a href="t.me/g3nj1z">Telegram</a>
 
 Progress:
 Subdomain:
