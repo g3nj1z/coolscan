@@ -25,16 +25,11 @@ Automate multipurpose tools that automates low-hanging fruit by using multiple u
         SSL Scanner
         7-) sslscan
 
-        8-) sqlmap
-        9-) wpscan
-        10-) nikto
+        8-) default sqlmap
+        9-) enumerate usernames wpscan
+        10-) default nikto
 
         0-) Exit
-
-        2-) sslscan
-        5-) default sqlmap
-        6-) enumerate usernames wpscan
-        7-) default nikto
 
 # Install coolscan
 ```bash
