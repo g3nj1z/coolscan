@@ -349,7 +349,7 @@ def rootkontrol():
     if os.geteuid()==0:
         baslangic()
     else:
-        print "you need to be root to run this script"
+        print("you need to be root to run this script")
         sys.exit()
 
 rootkontrol()
