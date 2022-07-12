@@ -39,13 +39,18 @@ sudo git clone https://github.com/g3nj1z/coolscan
 cd coolscan
 ```
 
-Wordlists
-common.txt
+## Wordlists
+Kena download common.txt
 
-Dependecies yg kena install dulu
+## Dependecies installation
+```bash
+pip install -r requirements.txt
+
+snap install httpx
+```
+
 sudo apt-get install whois
 pip install httpx
-
 
 
 ## Usage
