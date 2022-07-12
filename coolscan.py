@@ -226,7 +226,7 @@ def baslangic():
             time.sleep(2)
             baslangic()
 
-    # smap to output formats
+    # smap
     if selection == "7":
         print(" Starting smap...")
         time.sleep(1)
@@ -235,7 +235,7 @@ def baslangic():
         print(" Enter your IP address or example.com")
         print("")
         url = raw_input("     Enter Your Destination: ")
-        os.system("smap "+url "-oX output.xml")
+        os.system("smap "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
         selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
