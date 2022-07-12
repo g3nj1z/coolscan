@@ -21,13 +21,18 @@ Automate multipurpose tools that automates low-hanging fruit by using multiple u
 
         Nmap Scans:
         6-) nmap vuln scan
+        7-) smap to output formats
 
         SSL Scanner
-        7-) sslscan
+        8-) sslscan
 
-        8-) default sqlmap
-        9-) enumerate usernames wpscan
-        10-) default nikto
+        Vulnerability
+        9-) default sqlmap
+        10--) enumerate usernames wpscan
+        11-) default nikto
+
+        Exploit
+        12-) Exploitdb
 
         0-) Exit
 
@@ -44,6 +49,8 @@ Dependecies yg kena install dulu
 sudo apt-get install whois
 pip install httpx
 
+
+
 ## Usage
 
 ```bash
@@ -55,85 +62,3 @@ sudo python coolscan.py
 
 # Find me @
 <a href="t.me/g3nj1z">Telegram</a>
-
-Progress:
-Subdomain:
-subfinder
-amass
-dig
-assetfinder
-sublist3r
-chaos (chaos.projectdiscover.io)
-
-Webspidering:
-gospider
-gau
-linkfinder
-waybackurls
-hakrawler
-paramspider
-
-Directory/fuzzing:
-ffuf
-wfuzz
-gobuster
-dirbuster
-
-Fingerprinting
-wappalyzer
-builtwith
-netcraft
-whatweb
-wafw0f
-
-Vulnerability
-nuclei
-wpscan
-nikto
-
-Email
-mxtoolbox
-emkei
-anonymailer
-thunderbird
-
-Exploit
-searchsploit
-exploitdb
-
-Sensitivedata
-trufflehog
-gitsecrets
-
-Api
-postman
-graphqlmap
-
-Payload/Wordlists
-swisskeyrepo 
-seclists
-
-ports
-nmap
-masscan
-zmap
-smap
-hackertarget
-
-ssl
-sslscan
-sslhopper
-
-searchengines:
-shodan
-censys
-zoomeye
-google
-
-misc:
-https
-metasploit
-dnsdumpster
-httprobe
-recon-ng
-securitytrails

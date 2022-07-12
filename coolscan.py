@@ -49,13 +49,18 @@ def menu():
 
         Nmap Scans:
         6-) nmap vuln scan
+        7-) smap to output formats
 
         SSL Scanner
-        7-) sslscan
+        8-) sslscan
 
-        8-) default sqlmap
-        9-) enumerate usernames wpscan
-        10-) default nikto
+        Vulnerability
+        9-) default sqlmap
+        10--) enumerate usernames wpscan
+        11-) default nikto
+
+        Exploit
+        12-) Exploitdb
 
         0-) Exit
 
@@ -221,8 +226,30 @@ def baslangic():
             time.sleep(2)
             baslangic()
 
+    # smap to output formats
+    if selection == "7":
+        print(" Starting smap...")
+        time.sleep(1)
+        os.system("clear")
+        logo()
+        print(" Enter your IP address or example.com")
+        print("")
+        url = raw_input("     Enter Your Destination: ")
+        os.system("smap "+url "-oX output.xml")
+        print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
+        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        if selectionurl == "1":
+            baslangic()
+        if selectionurl == "2":
+            print(" \033[1;91m@Good bye\033[1;m")
+            sys.exit() 
+        else:
+            print(" Please enter one of the options in the menu. \n You are directed to the main menu.")
+            time.sleep(2)
+            baslangic()
+
     # sslscan
-    if selection =="7":
+    if selection =="8":
         print(" Starting sslscan...")
         time.sleep(1)
         os.system("clear")
@@ -244,7 +271,7 @@ def baslangic():
             baslangic()
 
     # sqlmap
-    if selection =="8":
+    if selection =="9":
         print(" Starting sqlmap...")
         time.sleep(1)
         os.system("clear")
@@ -266,7 +293,7 @@ def baslangic():
             baslangic()
 
     # wpscan
-    if selection =="9":
+    if selection =="10":
         print(" Starting wpscan...")
         time.sleep(1)
         os.system("clear")
@@ -288,7 +315,7 @@ def baslangic():
             baslangic()
 
     # nikto
-    if selection =="10":
+    if selection =="11":
         print(" Starting nikto...")
         time.sleep(1)
         os.system("clear")
@@ -297,6 +324,28 @@ def baslangic():
         print("")
         url = raw_input("     Enter Your Destination: ")
         os.system("nikto -h "+url)
+        print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
+        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        if selectionurl == "1":
+            baslangic()
+        if selectionurl == "2":
+            print(" \033[1;91m@Good bye\033[1;m")
+            sys.exit() 
+        else:
+            print(" Please enter one of the options in the menu. \n You are directed to the main menu.")
+            time.sleep(2)
+            baslangic()
+
+    # exploitdb
+    if selection =="12":
+        print(" Starting searchsploit...")
+        time.sleep(1)
+        os.system("clear")
+        logo()
+        print(" Enter your exploit details")
+        print("")
+        url = raw_input("     Enter Your Destination: ")
+        os.system("searchsploit "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
         selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
