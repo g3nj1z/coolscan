@@ -21,20 +21,17 @@ Automate multipurpose tools that automates low-hanging fruit by using multiple u
 
         Nmap Scans:
         6-) nmap vuln scan
-        7-) smap to output formats
 
         SSL Scanner
-        8-) sslscan
+        7-) sslscan
 
         Vulnerability
-        9-) default sqlmap
-        10--) enumerate usernames wpscan
-        11-) default nikto
+        8-) default sqlmap
+        9--) enumerate usernames wpscan
+        10-) default nikto
 
         Exploit
-        12-) Exploitdb
-
-        0-) Exit
+        11-) Exploitdb
 
 # Install coolscan
 ```bash
