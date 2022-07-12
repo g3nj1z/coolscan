@@ -45,7 +45,7 @@ Kena download common.txt
 ## Dependecies installation
 ```bash
 pip install -r requirements.txt
-
+pip install python
 snap install httpx
 ```
 
