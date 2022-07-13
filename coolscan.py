@@ -340,6 +340,7 @@ def baslangic():
         os.system("dig "+url +" > Xdig.txt")
         os.system("httpx "+url +" > Xhttpx.txt")
         os.system("nmap -sV --script vuln "+url +" > Xnmap.txt")
+        os.system("sslscan "+url +" > Xsslscan.txt")
 
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
         selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
