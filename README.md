@@ -49,10 +49,6 @@ pip install python
 snap install httpx
 ```
 
-sudo apt-get install whois
-pip install httpx
-
-
 ## Usage
 
 ```bash
