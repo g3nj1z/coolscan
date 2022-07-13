@@ -48,14 +48,15 @@ Kena download common.txt
 ## Dependecies installation
 ```bash
 pip install -r requirements.txt
-pip install python
+apt-get install whois
+pip install python2
 snap install httpx
 ```
 
 ## Usage
 
 ```bash
-sudo python coolscan.py 
+sudo python3 coolscan.py 
 ```
 
 # Found a bug or any security issue?

@@ -72,7 +72,7 @@ def baslangic():
     menu()
     print("   Enter one of the options.")
 
-    selection = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+    selection = input("root""\033[1;91m@coolscan:~$\033[1;m ")
 
     # whois
     if selection == "1":
@@ -82,11 +82,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("whois "+url +" > whois.txt")
         os.system("whois "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -105,11 +105,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("dig "+url +" > dig.txt")
         os.system("dig "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -128,11 +128,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("gobuster -e -u "+url +" > gobuster.txt")
         os.system("gobuster -e -u "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -151,11 +151,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("dirb "+url +" > dirb.txt")
         os.system("dirb "+url)       
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -174,11 +174,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("httpx "+url +" > httpx.txt")
         os.system("httpx "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -197,11 +197,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("nmap -sV --script vuln "+url +" > nmapvuln.txt")
         os.system("nmap -sV --script vuln "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -220,11 +220,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("sslscan "+url +" > sslscan.txt")
         os.system("sslscan "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -243,11 +243,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("sqlmap -u "+url +" > sqlmap.txt")
         os.system("sqlmap -u "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -266,11 +266,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("wpscan  --url "+url+" --enumerate u" +" > wpscan.txt")
         os.system("wpscan  --url "+url+" --enumerate u")
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -289,11 +289,11 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("nikto -h "+url +" > nikto.txt")
         os.system("nikto -h "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -312,11 +312,11 @@ def baslangic():
         logo()
         print(" Enter your exploit details")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("searchsploit "+url +" > exploitdb.txt")
         os.system("searchsploit "+url)
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
@@ -335,14 +335,14 @@ def baslangic():
         logo()
         print(" Enter your IP address or example.com")
         print("")
-        url = raw_input("     Enter Your Destination: ")
+        url = input("     Enter Your Destination: ")
         os.system("whois "+url +" > Xwhois.txt")    
         os.system("dig "+url +" > Xdig.txt")
         os.system("httpx "+url +" > Xhttpx.txt")
         os.system("nmap -sV --script vuln "+url +" > Xnmap.txt")
 
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        selectionurl = input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":
             baslangic()
         if selectionurl == "2":
