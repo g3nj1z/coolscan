@@ -61,6 +61,9 @@ def menu():
         Exploit
         11-) Exploitdb
 
+        Collection
+        12-) External Pentest
+
         0-) Exit
 
         """)
@@ -312,6 +315,32 @@ def baslangic():
         url = raw_input("     Enter Your Destination: ")
         os.system("searchsploit "+url +" > exploitdb.txt")
         os.system("searchsploit "+url)
+        print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
+        selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
+        if selectionurl == "1":
+            baslangic()
+        if selectionurl == "2":
+            print(" \033[1;91m@Good bye\033[1;m")
+            sys.exit() 
+        else:
+            print(" Please enter one of the options in the menu. \n You are directed to the main menu.")
+            time.sleep(2)
+            baslangic()
+
+    # external pentest
+    if selection =="12":
+        print(" Starting external pentest...")
+        time.sleep(1)
+        os.system("clear")
+        logo()
+        print(" Enter your IP address or example.com")
+        print("")
+        url = raw_input("     Enter Your Destination: ")
+        os.system("whois "+url +" > Xwhois.txt")    
+        os.system("dig "+url +" > Xdig.txt")
+        os.system("httpx "+url +" > Xhttpx.txt")
+        os.system("nmap -sV --script vuln "+url +" > Xnmap.txt")t")
+
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
         selectionurl = raw_input("root""\033[1;91m@coolscan:~$\033[1;m ")
         if selectionurl == "1":

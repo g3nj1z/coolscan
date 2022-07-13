@@ -33,6 +33,9 @@ Automate multipurpose tools that automates low-hanging fruit by using multiple u
         Exploit
         11-) Exploitdb
 
+        Collection
+        12-) External Pentest
+
 # Install coolscan
 ```bash
 sudo git clone https://github.com/g3nj1z/coolscan
