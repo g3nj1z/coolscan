@@ -61,4 +61,4 @@ sudo python3 coolscan.py
 # Found a bug or any security issue?
 - Please feel free to open an [issue](https://github.com/g3nj1z/coolscan/issues)
 
-# Find me (<a href="t.me/g3nj1z">@Telegram</a>)
+# Find me (<a href="https://t.me/g3nj1z">@Telegram</a>)
