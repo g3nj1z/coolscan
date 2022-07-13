@@ -44,7 +44,6 @@ cd coolscan
 
 ## Dependecies installation
 ```bash
-pip install -r requirements.txt
 apt-get install whois
 pip install python3
 snap install httpx
