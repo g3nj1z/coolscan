@@ -42,16 +42,16 @@ sudo git clone https://github.com/g3nj1z/coolscan
 cd coolscan
 ```
 
-## Wordlists
-Kena download common.txt
-
 ## Dependecies installation
 ```bash
 pip install -r requirements.txt
 apt-get install whois
-pip install python2
+pip install python3
 snap install httpx
 ```
+
+## Wordlists
+Kena download common.txt
 
 ## Usage
 
