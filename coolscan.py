@@ -333,7 +333,7 @@ def baslangic():
         time.sleep(1)
         os.system("clear")
         logo()
-        print(" Enter your IP address or example.com")
+        print(" Enter your IP address or https://www.example.com")
         print("")
         url = input("     Enter Your Destination: ")
         os.system("whois "+url +" > Xwhois.txt")    
