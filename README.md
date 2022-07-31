@@ -1,7 +1,7 @@
 # coolscan :sunglasses:
 Automate multipurpose tools that automates low-hanging fruit by using multiple useful tools to enumerate a certain website. More updates soon. Pull-requests and contributions are welcome!
 
-# Feautures
+# Features
 :white_check_mark: saves a lot of time
 
 :white_check_mark: multiple tools are used to check for the same vulnerabilities, allowing you to effectively hone in on false positives.
